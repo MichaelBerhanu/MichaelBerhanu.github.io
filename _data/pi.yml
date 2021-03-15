@@ -1,0 +1,18 @@
+- name: Dr. Michael Berhanu
+  photo: Michael.jpg
+  info: CNRS Researcher, MSC UMR 7057, Paris, France 
+  email: michael.berhanu@univ-paris-diderot.fr
+  github: https://github.com/MichaelBerhanu
+  linkedin: https://www.linkedin.com/in/michael-berhanu-249563131
+  researchgate: https://www.researchgate.net/profile/Michael-Berhanu
+  scholar: https://scholar.google.fr/citations?user=uAIZEqgAAAAJ&hl
+  cv: cv/CVeng2020.pdf
+  number_educ: 4
+  education1: (2010- ) CNRS Researcher at <a href="http://www.msc.univ-paris-diderot.fr/" target="_blank">MSC</a>, Université de Paris
+  education2: (2008-2010) Postdoctoral Researcher, Clark University, Worcester, MA, USA, with <a href="http://physics.clarku.edu/~akudrolli/nls.html" target="_blank">Arshad Kudrolli</a>
+  education3: (2005-2008) Ph.D. Physics, Ecole Normale Supérieure <a href="https://www.phys.ens.fr/" target="_blank">Physics Dpt.</a> , with <a href="https://www.lpens.ens.psl.eu/recherche/flu-int/physique-non-lineaire/" target="_blank"> Stéphan Fauve</a> and <a href="http://nicolas.mordant.free.fr/" target="_blank">Nicolas Mordant</a>
+  education4: (2001-2005) Master degree, Physics, <a href="http://www.ens-lyon.fr/" target="_blank">Ecole Normale Supérieure de Lyon</a>
+  education1short: (2010- ) CNRS resarcher, MSC, Paris 
+  education2short: (2008-2010) Postdoc, Clark University 
+  education3short: (2005-2008) Ph.D. LPS, Ecole Normale Supérieure 
+  education4short: (2001-2005) Ecole Normale Supérieure de Lyon

@@ -1,0 +1,62 @@
+
+- name: Martin Chaigne 
+  location:                    
+  degree: Master 2 Intern 
+  year: Spring 2021
+  
+- name: Adrien Guérin
+  location:                
+  degree: Post-doctoral researcher 
+  url: "http://adrienguerin.fr/"
+  year: 2017 to 2020
+
+- name: Clément Lutringer
+  location:  co-supervised with Julien Derr                   
+  degree: Master 2 Intern 
+  year: Spring 2020
+
+- name: Ambroise Mathey 
+  location:                    
+  degree: Master 1 Intern 
+  year: Spring 2020
+
+- name: Raphaël Dubourg
+  location:                    
+  degree: Bachelor Intern 
+  year: Spring 2019
+  
+- name: Arthur Walbecq
+  location:                    
+  degree: Bachelor Intern 
+  year: Spring 2018
+  
+- name: Cyril Ozouf
+  location:  co-supervised with Sylvain Courrech du Pont               
+  degree: Master 2 Intern 
+  year: Spring 2017
+  
+- name: Annette Cazaubiel
+  location: co-supervised with Eric Falcon           
+  degree: Master 2 Intern 
+  year: Spring 2016
+
+#- name: Florence Haudin
+ # location: MSC co-supervised with Eric Falcon                
+ # degree: Post-doctoral researcher, now Consultant engineer, Vulcain 
+ # year: 2015   
+  
+#- name: Simon Merminod
+ # location: MSC co-supervised with Eric Falcon               
+#  degree: PhD Student 
+#  year: 2013-2016
+  
+#- name: Leonardo Gordillo
+ # location: MSC co-supervised with Eric Falcon                
+ # degree: Post-doctoral researcher, now Assistant Professor, University of Santiago, Chile 
+ # year: 2012-2014 
+  
+#- name: Timothée Jamin
+#  location: MSC co-supervised with Eric Falcon                
+ # degree: PhD Student 
+#  year: 2012-2015 
+
