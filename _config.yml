@@ -1,0 +1,101 @@
+# Site settings
+title: Dr. Michael Berhanu
+email: michael.berhanu@univ-paris-diderot.fr
+description: Academic webpage of Dr. Michael Berhanu
+baseurl: ""
+url: ""
+
+
+# Google analytics ID: Remove or use your own!
+google_analytics: 
+google_analytics_4: 
+google_tag_manager: 
+
+# Footer info
+affiliation: >
+    Dr. Michael Berhanu<br/>
+    CNRS Researcher<br/>
+    <a href="https://www.cnrs.fr/" target="_blank">Centre national de la recherche scientifique</a><br/>
+    Université de Paris
+
+location: >
+  <a href="http://www.msc.univ-paris-diderot.fr/" target="_blank">Laboratoire Matières et Systèmes Complexes (MSC)</a><br/>
+    Université de Paris <br/>
+  10 rue Alice Domon<br/> et Léonie Duquet<br/>
+  75013, Paris, France
+
+contact: >
+    <a href="mailto:michael.berhanu@univ-paris-diderot.fr" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Michael via email</a> <br/>
+    <br/>
+    Website template by <a href="https://bryngelson-research.com/aboutwebsite.html" target="_blank"> Dr. Spencer Bryngelson </a>
+
+# Pages shown in navbar
+nav_pages:
+  - name: about
+  - name: publications
+#  - name: talks
+  - name: research
+  - name: outreach
+# - name: team
+  - name: teaching
+
+include:
+  - .htaccess
+  - _pages
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+
+plugins: ['jekyll/scholar']
+
+scholar:
+
+  last_name: Berhanu
+  first_name: [Michael]
+
+  style: shb
+  locale: en
+
+  source: /cv/
+  bibliography: ref.bib
+  bibliography_template: bibtemplate
+  #sort_by: year, month
+  sort_by: none
+  order: descending
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+  bibliography_list_attributes:
+    reversed: "reversed"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - update_boostrap.sh
+  - switch_theme.sh
+  - tags
+  - Rakefile
